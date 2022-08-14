@@ -10,7 +10,7 @@ using namespace std;
 
 //________________________________________________________________________________________________________________________________
 
-int i; //:loops etc
+int i; //:use in loops etc
 
 string line; //:equation input
 string item; //:splitting equation
