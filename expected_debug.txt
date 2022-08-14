@@ -1,0 +1,35 @@
+
+        Enter your equation: 10 + 20 - 5
+
+iter '0' | char '1' | item '1'
+iter '1' | char '0' | item '10'
+iter '2' | char ' ' | item '10' | br
+iter '3' | char '+' | item '+'
+iter '4' | char ' ' | item '+' | br
+iter '5' | char '2' | item '2'
+iter '6' | char '0' | item '20'
+iter '7' | char ' ' | item '20' | br
+iter '8' | char '-' | item '-'
+iter '9' | char ' ' | item '-' | br
+iter '10' | char '5' | item '5'
+iter '11' | char ' ' | item '5' | br
+iter '12' | char '' | item ''
+
+val '10'
+val '+'
+val '20'
+val '-'
+val '5'
+
+iter '0' | val '10' | type 'dbl' | numArr loc '0'
+iter '1' | val '+' | type 'str' | recog loc '0'
+iter '2' | val '20' | type 'dbl' | numArr loc '1'
+iter '3' | val '-' | type 'str' | recog loc '1'
+iter '4' | val '5' | type 'dbl' | numArr loc '2'
+
+ans '10'
+ans '30'
+ans '25'
+
+        25
+
