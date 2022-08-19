@@ -11,11 +11,11 @@ A Command-Line Calculator Built in C++
 - Follow the [order of operations](https://en.wikipedia.org/wiki/Order_of_operations)
 
 ```shell
->>> 10 + 20 - 5
+> 10 + 20 - 5
 
 25
 
->>> 4 ^ 2 + 6
+> 4 ^ 2 + 6
 
 22
 ```
