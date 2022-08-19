@@ -7,22 +7,17 @@ A Command-Line Calculator Built in C++
 
 - Follow prompts
 - Space-seperate all items
-- Use ASCII symbols for operators
+- Use [plain-text symbols](https://www.purplemath.com/modules/mathtext.htm) for operators
+- Follow the [order of operations](https://en.wikipedia.org/wiki/Order_of_operations)
 
 ```bash
 >>> 10 + 20 - 5
 
 25
-```
 
-### The avaible operators are currently the below&#58;
+>>> 4 ^ 2 + 6
 
-```bash
-- `+` for addition
-- `-` for subtraction
-- `*` for multiplication
-- `/` for division
-- `^` for powers
+22
 ```
 
 ## License
