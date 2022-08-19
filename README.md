@@ -1,40 +1,32 @@
+
 # C++ Calculator
 
-## A Command-Line Calculator Built in C++
+A Command-Line Calculator Built in C++
 
-</br>
+## Usage
 
-### Input the equation required following the below rules&#58;
-
+- Follow prompts
 - Space-seperate all items
 - Use ASCII symbols for operators
 
-</br>
-
 ### Example&#58;
 
-    10 + 20 - 5
+```bash
+>>> 10 + 20 - 5
 
-### Would return&#58;
+25
+```
 
-    25
+### The avaible operators are currently the below&#58;
 
-</br>
-
-### The avaible operations are currently the below&#58;
-
+```bash
 - `+` for addition
 - `-` for subtraction
 - `*` for multiplication
 - `/` for division
 - `^` for powers
+```
 
-</br>
+## License
 
-### Or &#58;
-
-    4 ^ 2 + 3
-
-### Will return&#58;
-
-    19
+[MIT](https://choosealicense.com/licenses/mit/)
