@@ -8,7 +8,7 @@ A Command-Line Calculator Built in C++
 You can either clone the repo or download the zip from Github
 
 ```shell
-git clone https://github.com/Cornelius-Figgle/calculatorLol
+git clone https://github.com/Cornelius-Figgle/calculatorLol.git
 ```
 
 ## Usage
