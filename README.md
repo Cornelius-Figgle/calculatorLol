@@ -10,7 +10,7 @@ A Command-Line Calculator Built in C++
 - Use [plain-text symbols](https://www.purplemath.com/modules/mathtext.htm) for operators
 - Follow the [order of operations](https://en.wikipedia.org/wiki/Order_of_operations)
 
-```bash
+```shell
 >>> 10 + 20 - 5
 
 25
