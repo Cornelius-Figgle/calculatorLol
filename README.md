@@ -3,6 +3,10 @@
 
 A Command-Line Calculator Built in C++
 
+## Installation
+
+You can either clone the repo or download the zip from Github
+
 ## Usage
 
 - Follow prompts
