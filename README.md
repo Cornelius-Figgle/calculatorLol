@@ -9,8 +9,6 @@ A Command-Line Calculator Built in C++
 - Space-seperate all items
 - Use ASCII symbols for operators
 
-### Example&#58;
-
 ```bash
 >>> 10 + 20 - 5
 
