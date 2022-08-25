@@ -17,6 +17,7 @@ git clone https://github.com/Cornelius-Figgle/calculatorLol.git
 - Space-seperate all items
 - Use [plain-text symbols](https://www.purplemath.com/modules/mathtext.htm) for operators
 - Follow the [order of operations](https://en.wikipedia.org/wiki/Order_of_operations)
+- Use only `0123456789+-*/^`
 
 ```shell
 > 10 + 20 - 5
