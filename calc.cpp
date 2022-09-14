@@ -167,7 +167,7 @@ int main(int argc, char *argv[]) {
 	recog = {"+", "-", "*", "/", "^", " "};
 	errorList = {"internal error: num from arr not in numArr (possible conversion error?)", "not a symbol (unrecognised)"};
 
-	if (argc != 0) {
+	if (argc == 0) {
 		cout << "\n\tEnter your equation: ";
 		getline(cin, line);
 		convertToVector(arr);
