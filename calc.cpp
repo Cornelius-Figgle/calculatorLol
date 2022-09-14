@@ -163,7 +163,8 @@ void solveEquation(double &ans) {
 
 int main(int argc, char *argv[]) {
 
-	for (i; i <= argc; i++) {
+	i = 0;
+	for (i; i < argc; i++) {
 		cout << argv[i];
 	}
 
