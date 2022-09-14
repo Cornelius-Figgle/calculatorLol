@@ -29,7 +29,7 @@ double ans; //:maths
 void convertToVector(vector<string> &arr);
 string determineSegments(map<string, string> &arrMapping, vector<double> &numArr, vector<int> &equatorialLocations);
 void solveEquation(double &ans);
-int main();
+int main(int argc, char *argv[]);
 
 //________________________________________________________________________________________________________________________________
 
@@ -162,6 +162,11 @@ void solveEquation(double &ans) {
 }
 
 int main(int argc, char *argv[]) {
+
+	for (i; i <= argc; i++) {
+		cout << argv[i];
+	}
+
 	recog = {"+", "-", "*", "/", "^", " "};
 	errorList = {"internal error: num from arr not in numArr (possible conversion error?)", "not a symbol (unrecognised)"};
 
