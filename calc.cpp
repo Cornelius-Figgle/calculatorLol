@@ -164,18 +164,20 @@ void solveEquation(double &ans) {
 int main(int argc, char *argv[]) {
 	cout << endl;
 
-	i = 0;
-	for (i; i < argc; i++) {
-		cout << argv[i] << '\n';
-	}
-
 	recog = {"+", "-", "*", "/", "^", " "};
 	errorList = {"internal error: num from arr not in numArr (possible conversion error?)", "not a symbol (unrecognised)"};
 
-	cout << "\n\tEnter your equation: ";
-	getline(cin, line);
+	if (argc != 0) {
+		cout << "\n\tEnter your equation: ";
+		getline(cin, line);
+		convertToVector(arr);
+	} else {
+		i = 0;
+		for (i; i < argc; i++) {
+			arr[i] = argv[i];
+		}
+	}
 
-	convertToVector(arr);
 	msg = determineSegments(arrMapping, numArr, equatorialLocations);
 	if (msg != "") {
 		cout << '\n' << msg << '\n';
