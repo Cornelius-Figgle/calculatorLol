@@ -172,9 +172,10 @@ int main(int argc, char *argv[]) {
 		getline(cin, line);
 		convertToVector(arr);
 	} else {
-		i = 0;
+		i = 1;
+		cout << "argc '" << argc << '\'' <<'\n';
 		for (i; i < argc; i++) {
-			arr[i] = argv[i + 1];
+			arr.push_back(argv[i]);
 		}
 	}
 
