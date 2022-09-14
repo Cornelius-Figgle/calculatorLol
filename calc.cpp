@@ -161,7 +161,7 @@ void solveEquation(double &ans) {
 	}
 }
 
-int main() {
+int main(int argc, char *argv[]) {
 	recog = {"+", "-", "*", "/", "^", " "};
 	errorList = {"internal error: num from arr not in numArr (possible conversion error?)", "not a symbol (unrecognised)"};
 
