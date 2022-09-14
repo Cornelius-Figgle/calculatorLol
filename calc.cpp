@@ -162,10 +162,11 @@ void solveEquation(double &ans) {
 }
 
 int main(int argc, char *argv[]) {
+	cout << endl;
 
 	i = 0;
 	for (i; i < argc; i++) {
-		cout << argv[i];
+		cout << argv[i] << '\n';
 	}
 
 	recog = {"+", "-", "*", "/", "^", " "};
