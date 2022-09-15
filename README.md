@@ -13,6 +13,18 @@ git clone https://github.com/Cornelius-Figgle/calculatorLol.git
 
 ## Usage
 
+You can either use the shell or pass parameters via the command line
+
+```shell
+> \calculatorLol\calc.exe 10 + 20 - 5
+
+25
+
+> \calculatorLol\calc.exe 4 ^ 2 + 6
+
+22
+```
+
 - Follow prompts
 - Space-seperate all items
 - Use [plain-text symbols](https://www.purplemath.com/modules/mathtext.htm) for operators
